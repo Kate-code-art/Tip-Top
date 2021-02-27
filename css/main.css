@@ -1,9 +1,6 @@
 #hour  {
   color: #ff0060;
 }
-.container {
-  border-style: solid;
-}
 header {
   display: flex;
   justify-content: space-around;
@@ -12,18 +9,28 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 #tiptop {
+  display: inline-block;
   font-weight: bold;
   font-size: 30px;
-  vertical-align:top;
+  vertical-align:middle;
   margin: auto;
-  border-style: solid;
 }
 #decoration {
-  color: grey;
+  display: inline-block;
+  color: black;
   font-size: 15px;
   vertical-align:middle;
 }
 #tiptopimage {
   vertical-align: middle;
 }
-$ git config --global core.editor "atom --wait"
+#delivery {
+  color: white;
+  border: 2px solid;
+  box-sizing: border-box;
+  border-radius: 270px;
+  padding: 10px;
+}
+body {
+  background-color:#FFEE59;
+}
