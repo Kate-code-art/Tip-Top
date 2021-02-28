@@ -2,27 +2,19 @@
   color: #ff0060;
 }
 header {
-  display: flex;
-  justify-content: space-around;
+  margin: auto;
+  width: 90%;
 }
 html {
   font-family: 'Montserrat', sans-serif;
 }
 #tiptop {
-  display: inline-block;
   font-weight: bold;
   font-size: 30px;
-  vertical-align:middle;
-  margin: auto;
 }
 #decoration {
-  display: inline-block;
   color: black;
   font-size: 15px;
-  vertical-align:middle;
-}
-#tiptopimage {
-  vertical-align: middle;
 }
 #delivery {
   color: white;
@@ -33,4 +25,27 @@ html {
 }
 body {
   background-color:#FFEE59;
+}
+.header-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header-container > img {
+  margin: auto 16px;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+
+  border-top: 10px solid white;
+}
+#tiptop-container {
+  margin-right: 32px;
+}
+#decoration-container {
+  margin-right: 88px;
 }
