@@ -27,7 +27,8 @@ body {
   background-color:#FFEE59;
 }
 .header-container {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   vertical-align: middle;
 }
 
@@ -40,7 +41,6 @@ body {
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-
   border-top: 10px solid white;
 }
 #tiptop-container {
